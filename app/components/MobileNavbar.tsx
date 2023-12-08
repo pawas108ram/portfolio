@@ -15,7 +15,7 @@ const MobileNavbar = () => {
           <motion.div animate={showMenu ? 'show' : 'hide'} variants={{
               show: { x: 0, scaleX:1,transition: { duration: 0.6 },display:'flex' },
                 hide: { x: '100%',scaleX:0, transition: { duration: 0.6 },display:'none' }
-          }} className='fixed inset-0 bg-color-panel z-[999] flex flex-col items-end gap-2 p-2   '>
+          }} className='fixed inset-0 bg-color-panel z-[999] flex flex-col items-end gap-2 p-2 xs:flex lg:hidden   '>
               <div className='relative py-4'>
                   <button className='bg-color-text/30 text-white p-4 rounded-full absolute top-0 right-0' onClick={()=>setShowMenu(false)}><MdClose/></button>
               </div>
