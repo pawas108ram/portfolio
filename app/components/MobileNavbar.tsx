@@ -26,7 +26,7 @@ const MobileNavbar = () => {
                   duration={500}
                   to={nav.id} activeClass='active'   className='bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer ' >{nav.name}</ScrollLink>
               ))}
-                <Link href='https://drive.google.com/file/d/142yYdDYVt1uuPfQO1mk6dJSg_C4NyMnP/view?usp=drive_link' target='_blank' className="bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer">Resume</Link>
+                <Link href='https://drive.google.com/file/d/1uyN7xCn_Ip2JNvq_siEeLrobO8pfSoOo/view?usp=drive_link' target='_blank' className="bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer">Resume</Link>
               
          </motion.div>
           
