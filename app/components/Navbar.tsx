@@ -27,7 +27,7 @@ const Navbar = ({  }: {  }) => {
             <span>{item.name}</span>
           </ScrollLink>
         ))}
-              <Link href='https://drive.google.com/file/d/1uyN7xCn_Ip2JNvq_siEeLrobO8pfSoOo/view?usp=drive_link' target='_blank' className="bg-black/20 py-2 px-4 rounded hover:bg-black/50 transition-all font-medium cursor-pointer text-lg">Resume</Link>
+              <Link href='https://drive.google.com/file/d/1j9A_WgQTJqLDIhAi5UiNb6r8qTJeMG24/view?usp=drive_link'    target='_blank' className="bg-black/20 py-2 px-4 rounded hover:bg-black/50 transition-all font-medium cursor-pointer text-lg">Resume</Link>
       </div>
     </div>
   );
