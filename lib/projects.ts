@@ -5,7 +5,7 @@ export const projects:Project[] = [
         name: 'ZoroChat',
         techStack: ['Next JS', 'Prisma', 'MongoDB', 'Pusher', 'Tailwind CSS', 'Framer Motion'],
         description: " Zoro Chat, built on Next.js, Prisma, and MongoDB, revolutionizes communication with real-time one-to-one and group chats. Ensuring a seamless and secure experience, it leverages Next.js for dynamic UI, Prisma for efficient data modeling, and MongoDB for scalable real-time storage, making it a modern solution for intuitive and responsive digital conversations.",
-        deployedLink: 'https://zorochat.vercel.app/',
+        deployedLink: 'https://zoro-chat.vercel.app/',
         githubLink: "https://github.com/pawas108ram/ZoroChat",
         image:'/images/zorochat.jpeg'
 
