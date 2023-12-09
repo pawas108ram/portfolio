@@ -10,7 +10,7 @@ import { navbar } from "@/lib/navbar";
 
 const Navbar = ({  }: {  }) => {
   return (
-    <div className="bg-color-panel p-4 w-full text-color-text lg:flex flex-row items-center justify-end sticky top-0 z-20 xs:hidden">
+    <div className="bg-color-panel/80 p-4 w-full text-color-text lg:flex flex-row items-center justify-end sticky top-0 z-20 xs:hidden">
      
       <div className="flex flex-row items-center gap-8">
         {navbar.map((item) => (
