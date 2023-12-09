@@ -20,11 +20,11 @@ const ProjectModal = ({onClose,project}:{onClose:()=>void,project:Project}) => {
               </div>
               <div className='flex flex-row items-center gap-3 text-white bg-black/50 py-2 px-3 w-full justify-center rounded xs:text-sm lg:text-base'>
                   <FaGlobe/>
-                  <Link className='underline text-blue-600' href={project.deployedLink}>{project.deployedLink} </Link>
+                  <Link className='underline text-blue-600 flex-wrap' href={project.deployedLink}>{project.deployedLink} </Link>
               </div>
               <div className='flex flex-row items-center gap-3 text-white bg-black/50 py-2 px-3 w-full justify-center rounded xs:text-sm lg:text-base'>
                   <FaGithub />
-                    <Link className='underline text-blue-600' href={project.githubLink}>{project.githubLink} </Link>
+                    <Link className='underline text-blue-600 flex-wrap' href={project.githubLink}>{project.githubLink} </Link>
               </div>
           </div>
       
