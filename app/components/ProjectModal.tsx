@@ -13,7 +13,7 @@ const ProjectModal = ({onClose,project}:{onClose:()=>void,project:Project}) => {
               <span className='lg:text-2xl underline font-medium text-white xs:text-lg'>Description of the Project</span>
               <span className='lg:text-xl text-white bg-black/30 py-1 px-2 rounded xs:text-base' >{project.description}</span>
               <span className='lg:text-2xl underline font-medium text-white xs:text-lg'>Tech Stack</span>
-                <div className='flex flex-row gap-4 xs:gap-2 flex-wrap'>
+                <div className='flex flex-row gap-4 xs:gap-2 flex-wrap xs:justify-center lg:justify-start'>
                     {project.techStack.map((tech) => (
                         <span key={tech} className='lg:text-xl text-white bg-black/40 py-1 px-2 rounded xs:text-sm'>{tech}</span>
                     ))}
