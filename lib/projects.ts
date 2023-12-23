@@ -48,8 +48,8 @@ export const projects:Project[] = [
         name: "LegalEase",
         techStack: ["Next JS", "Tailwind CSS", "Clerk Authentication", "MongoDB", "Socket.IO"],
         description: "LegalEase is a platform that connects lawyers and clients. It allows lawyers to create and manage their profiles. It also allows clients to create and manage their cases. It also has a chat feature that allows lawyers and clients to chat with each other.",
-        deployedLink: "https://frontend-beta-bice.vercel.app/",
-        githubLink: "https://github.com/Bhool-Bhulaiyaa/frontend",
+        deployedLink: "https://trial-tech.vercel.app/",
+        githubLink: "https://github.com/pawas108ram/TrialTech",
         image:'/images/legalease.jpeg'
 
     }
