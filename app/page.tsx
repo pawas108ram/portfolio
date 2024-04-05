@@ -36,7 +36,7 @@ export default function Home() {
   console.log(activeSection);
 
   return (
-    <div className='bg-color-bg min-h-screen flex flex-col gap-3'>
+    <div className='bg-color-bg min-h-screen flex flex-col gap-3 '>
       <Navbar  />
       <MobileNavbar/>
       <div id='about' className='portfolio-section'>

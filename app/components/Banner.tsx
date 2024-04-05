@@ -1,6 +1,6 @@
 import React from 'react'
-import codinganimation from '@/public/codinganimation.json'
-import Lottie from 'lottie-react'
+import animation from '../../public/images/68747470733a2f2f63646e2e6472696262626c652e636f6d2f75736572732f3733303730332f73637265656e73686f74732f363538313234332f6176656e746f2e676966.gif'
+import Image from 'next/image'
 
 const Banner = () => {
   return (
@@ -24,13 +24,7 @@ const Banner = () => {
               
           </div>
             <div className='lg:w-2/5 flex flex-row items-center justify-center outline-color-icon outline outline-1 xs:w-full '>
-                <Lottie
-                  animationData={codinganimation}
-                  loop={true}
-                  className='lg:h-[600x] lg:w-[600px] xs:h-[250px] xs:w-[250px]'
-                    
-                    
-              ></Lottie>
+                <Image src={animation} alt='coding' />
               </div>
           
       

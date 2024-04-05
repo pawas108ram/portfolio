@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import {   JetBrains_Mono } from 'next/font/google'
 import './globals.css'
 import { Providers } from './context/Providers'
+import StarsCanvas from './components/Background'
 
 
 const inter = JetBrains_Mono({ subsets: ['latin']})
@@ -21,7 +22,11 @@ export default function RootLayout({
       
       <body className={inter.className}>
         
-        <Providers>{children}</Providers>
+        <Providers>
+          <StarsCanvas/>
+            {children}
+            
+        </Providers>
       </body>
         
     </html>
