@@ -52,11 +52,11 @@ export const projects: Project[] = [
   },
   {
     name: "AlgoLibrarium",
-    techStack: ["React JS", "Django", "PostgresSQL", "NextUI"],
+    techStack: ["React JS", "Django", "PostgresSQL", "NextUI","Tailwind"],
     description:
       "Algolibrarium is a personal project developed to enhance the process of DSA (Data Structures and Algorithms) revision. This tool allows users to track solved questions creatively and provides visual insights into their progress. Key features include filtering questions by topic, status, and titles, making it easier to manage and review. Algolibrarium is designed to make DSA revision efficient, organized, and engaging, helping users prepare for coding interviews and improve their algorithmic skills.",
     deployedLink: "https://algolibrarium.vercel.app/",
-    githubLink: "https://github.com/pawas108ram/algolibrarium-frontend",
+    githubLink: "https://github.com/pawas108ram/AlgoLibrarium",
     image: "/images/algolibrarium.jpeg",
     },
     {
