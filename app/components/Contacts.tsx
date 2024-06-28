@@ -4,7 +4,7 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-      <div className='bg-black/40 text-white rounded w-full flex flex-col p-4 gap-2 '>
+      <div className='bg-black/40 text-white rounded w-full flex flex-row p-4 gap-2 z-99999 '>
           <span className='underline lg:text-4xl xs:text-2xl '>Socials</span>
           <span className='flex flex-row items-center gap-4 lg:text-lg  xs:text-sm'>
              <Image src='https://www.svgrepo.com/show/303161/gmail-icon-logo.svg' alt='gmail' height={32} width={32} />
