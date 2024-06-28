@@ -4,9 +4,9 @@ import React from 'react'
 
 const Contacts = () => {
   return (
-      <div className='bg-black/40 text-white rounded w-full flex flex-col p-4 gap-2 z-[999999] '>
+      <div className='bg-black/40 text-white rounded w-full flex flex-col p-4 gap-2 z-10 '>
           <span className='underline lg:text-4xl xs:text-2xl '>Socials</span>
-          <div className='flex flex-row gap-2 items-center p-2'>
+          <div className='flex flex-row gap-2 items-center p-2 z-10'>
               <span className='flex flex-row items-center gap-4 lg:text-lg  xs:text-sm'>
                  <Image src='https://www.svgrepo.com/show/303161/gmail-icon-logo.svg' alt='gmail' height={32} width={32} />
                   <Link href='mailto:pawas48ram@gmail.com' className='text-blue-500 underline'>Gmail</Link>
