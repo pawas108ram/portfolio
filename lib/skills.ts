@@ -35,10 +35,6 @@ export const skills = [
                 icon:'/logos/redux-logo.svg'
             },
             {
-                name: 'JQuery',
-                icon:'/logos/jquery.svg'
-            },
-            {
                 name: 'Bootstrap',
                 icon:'/logos/bootstrap.svg'
             }
@@ -70,16 +66,8 @@ export const skills = [
                 icon:'/logos/firebase.svg'
             },
             {
-                name: 'GraphQL',
-                icon:'/logos/graphql-svgrepo-com.svg'
-            },
-            {
                 name: 'MySQL',
                 icon:'/logos/mysql-logo.svg'
-            },
-            {
-                name: 'Redis',
-                icon:'/logos/redis-logo.svg'
             },
             {
                 name: 'Prisma',
@@ -110,16 +98,8 @@ export const skills = [
                 icon:'/logos/postman.svg'
             },
             {
-                name: 'SASS',
-                icon:'/logos/sass.svg'
-            },
-            {
                 name: 'Vercel',
                 icon:'/logos/logo-vercel.svg'
-            },
-            {
-                name: 'Docker',
-                icon:'/logos/docker-svgrepo-com.svg'
             }
         ]
     },
