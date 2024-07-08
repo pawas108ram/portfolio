@@ -9,6 +9,7 @@ import { MdClose } from 'react-icons/md'
 
 const MobileNavbar = () => {
     const [showMenu, setShowMenu] = useState(false);
+    const resume=process.env.NEXT_PUBLIC_RESUME_URL;
     
   return (
       <>
@@ -26,7 +27,7 @@ const MobileNavbar = () => {
                   duration={500}
                   to={nav.id} activeClass='active'   className='bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer ' >{nav.name}</ScrollLink>
               ))}
-                <Link href='https://drive.google.com/file/d/17d6W417FHT-Nyrgar1uNIDGfrY7T83KL/view?usp=sharing' target='_blank' className="bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer">Resume</Link>
+                <Link href={`${resume}`} target='_blank' className="bg-black/30 w-full text-center font-semibold text-color-text py-3 px-4 rounded cursor-pointer">Resume</Link>
               
          </motion.div>
           
