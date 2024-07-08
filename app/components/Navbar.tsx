@@ -10,6 +10,7 @@ import { navbar } from "@/lib/navbar";
 
 const Navbar = ({  }: {  }) => {
   const resume=process.env.NEXT_PUBLIC_RESUME_URL;
+  
   return (
     <div className="bg-color-panel/80 p-4 w-full text-color-text lg:flex flex-row items-center justify-end sticky top-0 z-20 xs:hidden">
      

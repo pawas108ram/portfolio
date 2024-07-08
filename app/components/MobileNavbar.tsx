@@ -11,6 +11,7 @@ const MobileNavbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     const resume=process.env.NEXT_PUBLIC_RESUME_URL;
     
+    
   return (
       <>
           <motion.div animate={showMenu ? 'show' : 'hide'} variants={{
